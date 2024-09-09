@@ -1,0 +1,48 @@
+<div role="listitem" class="collection-item w-dyn-item">
+                          <div class="list-div w-inline-block w-clearfix">
+                            <div class="list-thumbnail">
+                              <img src="./image/kotgep-20240730-0001_1_-removebg-preview.png" alt="" />
+                            </div>
+                             <h5> KOTGEP Tüzük</h5>
+                          </div>
+                        </div>
+                        <div role="listitem" class="collection-item w-dyn-item">
+                          <div class="list-div w-inline-block w-clearfix">
+                            <div class="list-thumbnail">
+                              <img src="./image/kotgep-20240730-0001_1_-removebg-preview.png" alt="" />
+                            </div>
+                             <h5> KOTGEP Tüzük</h5>
+                          </div>
+                        </div>
+                        <div role="listitem" class="collection-item w-dyn-item">
+                          <div class="list-div w-inline-block w-clearfix">
+                            <div class="list-thumbnail">
+                              <img src="./image/kotgep-20240730-0001_1_-removebg-preview.png" alt="" />
+                            </div>
+                             <h5> KOTGEP Tüzük</h5>
+                          </div>
+                        </div>
+                        <div role="listitem" class="collection-item w-dyn-item">
+                          <div class="list-div w-inline-block w-clearfix">
+                            <div class="list-thumbnail">
+                              <img src="./image/kotgep-20240730-0001_1_-removebg-preview.png" alt="" />
+                            </div>
+                             <h5> KOTGEP Tüzük</h5>
+                          </div>
+                        </div>
+                        <div role="listitem" class="collection-item w-dyn-item">
+                          <div class="list-div w-inline-block w-clearfix">
+                            <div class="list-thumbnail">
+                              <img src="./image/kotgep-20240730-0001_1_-removebg-preview.png" alt="" />
+                            </div>
+                             <h5> KOTGEP Tüzük</h5>
+                          </div>
+                        </div>
+                        <div role="listitem" class="collection-item w-dyn-item">
+                          <div class="list-div w-inline-block w-clearfix">
+                            <div class="list-thumbnail">
+                              <img src="./image/kotgep-20240730-0001_1_-removebg-preview.png" alt="" />
+                            </div>
+                             <h5> KOTGEP Tüzük</h5>
+                          </div>
+                        </div>

@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dergi-con {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-position: center;
+    background-repeat: 2;
+    background-size: cover;
+}
+
+body .pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Book */
+.book {
+    position: relative;
+    width: 450px;
+    height: 660px;
+    transition: transform 0.5s;
+}
+
+.paper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    perspective: 1500px;
+
+}
+
+.front,
+.back {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.front {
+    z-index: 1;
+    backface-visibility: hidden;
+    border-left: 3px solid powderblue;
+}
+
+.back {
+    z-index: 0;
+}
+
+.front-content,
+.back-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-content {
+    transform: rotateY(180deg)
+}
+
+/* Paper flip effect */
+.flipped .front,
+.flipped .back {
+    transform: rotateY(-180deg);
+}
+
+/* Controller Buttons */
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover i {
+    color: #636363;
+}
+
+button i {
+    font-size: 50px;
+    color: gray;
+}
+
+/* Paper stack order */
+
+#p1 {
+    z-index: 2;
+}
+
+#p2 {
+    z-index: 1;
+}
+
+#p3 {
+    z-index: 0;
+}
+#p4{
+    z-index: 0;
+}
+#p5{
+    z-index: 0;
+}
+#p6{
+    z-index: 0;
+}
+#p7{
+    z-index: 0;
+}
+#p8{
+    z-index: 0;
+}
+#p9{
+    z-index: 0;
+}
+#p10{
+    z-index: 0;
+}
+#p11{
+    z-index: 0;
+}
+#p12{
+    z-index: 0;
+}
+#p13{
+    z-index: 0;
+}
+#p14{
+    z-index: 0;
+}
+#p15{
+    z-index: 0;
+}
+#p16{
+    z-index: 0;
+}
+#p17{
+    z-index: 0;
+}
+#p18{
+    z-index: 0;
+}
+#p19{
+    z-index: 0;
+}
+#p20{
+    z-index: 0;
+}
+#p21{
+    z-index: 0;
+}
+#p22{
+    z-index: 0;
+}
+#p23{
+    z-index: 0;
+}
+#p24{
+    z-index: 0;
+}
+#p25{
+    z-index: 0;
+}
+@media screen and (max-width: 1024px){
+    .book{
+        width: 350px;
+        height: 500px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .book{
+        width: 250px;
+        height: 360px;
+    }
+}
+@media screen and (max-width: 477px){
+    .book{
+        width: 220px;
+        height: 327px;
+    }
+    
+}
+@media screen and (max-width: 399px){
+    .book{
+        width: 180px;
+        height: 250px;
+    }
+    
+}
+
+/* Content */
+#f1{
+    background-image: url(/dergi/eylul-dergisi/1.png);
+    background-position: center;
+    background-size: cover;
+}
+#b1{
+    background-image: url(/dergi/eylul-dergisi/2.png);
+    background-position: center;
+    background-size: cover;
+}
+#f2{
+    background-image: url(/dergi/eylul-dergisi/3.png);
+    background-position: center;
+    background-size: cover;
+}
+#b2{
+    background-image: url(/dergi/eylul-dergisi/4.png);
+    background-position: center;
+    background-size: cover;
+}
+#f3{
+    background-image: url(/dergi/eylul-dergisi/5.png);
+    background-position: center;
+    background-size: cover;
+}
+#b3{
+    background-image: url(/dergi/eylul-dergisi/6.png);
+    background-position: center;
+    background-size: cover;
+}
+#f4{
+    background-image: url(/dergi/eylul-dergisi/7.png);
+    background-position: center;
+    background-size: cover;
+}
+#b4{
+    background-image: url(/dergi/eylul-dergisi/8.png);
+    background-position: center;
+    background-size: cover;
+}
+#f5{
+    background-image: url(/dergi/eylul-dergisi/9.png);
+    background-position: center;
+    background-size: cover;
+}
+#b5{
+    background-image: url(/dergi/eylul-dergisi/10.png);
+    background-position: center;
+    background-size: cover;
+}
+#f6{
+    background-image: url(/dergi/eylul-dergisi/11.png);
+    background-position: center;
+    background-size: cover;
+}
+#b6{
+    background-image: url(/dergi/eylul-dergisi/12.png);
+    background-position: center;
+    background-size: cover;
+}
+#f7{
+    background-image: url(/dergi/eylul-dergisi/13.png);
+    background-position: center;
+    background-size: cover;
+}
+#b7{
+    background-image: url(/dergi/eylul-dergisi/14.png);
+    background-position: center;
+    background-size: cover;
+}
+#f8{
+    background-image: url(/dergi/eylul-dergisi/15.png);
+    background-position: center;
+    background-size: cover;
+}
+#b8{
+    background-image: url(/dergi/eylul-dergisi/16.png);
+    background-position: center;
+    background-size: cover;
+}
+#f9{
+    background-image: url(/dergi/eylul-dergisi/17.png);
+    background-position: center;
+    background-size: cover;
+}
+#b9{
+    background-image: url(/dergi/eylul-dergisi/18.png);
+    background-position: center;
+    background-size: cover;
+}
+#f10{
+    background-image: url(/dergi/eylul-dergisi/19.png);
+    background-position: center;
+    background-size: cover;
+}
+#b10{
+    background-image: url(/dergi/eylul-dergisi/20.png);
+    background-position: center;
+    background-size: cover;
+}
+#f11{
+    background-image: url(/dergi/eylul-dergisi/21.png);
+    background-position: center;
+    background-size: cover;
+}
+#b11{
+    background-image: url(/dergi/eylul-dergisi/22.png);
+    background-position: center;
+    background-size: cover;
+}
+#f12{
+    background-image: url(/dergi/eylul-dergisi/23.png);
+    background-position: center;
+    background-size: cover;
+}
+#b12{
+    background-image: url(/dergi/eylul-dergisi/24.png);
+    background-position: center;
+    background-size: cover;
+}
+#f13{
+    background-image: url(/dergi/eylul-dergisi/25.png);
+    background-position: center;
+    background-size: cover;
+}
+#b13{
+    background-image: url(/dergi/eylul-dergisi/26.png);
+    background-position: center;
+    background-size: cover;
+}
+#f14{
+    background-image: url(/dergi/eylul-dergisi/27.png);
+    background-position: center;
+    background-size: cover;
+}
+#b14{
+    background-image: url(/dergi/eylul-dergisi/28.png);
+    background-position: center;
+    background-size: cover;
+}
+#f15{
+    background-image: url(/dergi/eylul-dergisi/29.png);
+    background-position: center;
+    background-size: cover;
+}
+#b15{
+    background-image: url(/dergi/eylul-dergisi/30.png);
+    background-position: center;
+    background-size: cover;
+}
+#f16{
+    background-image: url(/dergi/eylul-dergisi/31.png);
+    background-position: center;
+    background-size: cover;
+}
+#b16{
+    background-image: url(/dergi/eylul-dergisi/32.png);
+    background-position: center;
+    background-size: cover;
+}
+#f17{
+    background-image: url(/dergi/eylul-dergisi/33.png);
+    background-position: center;
+    background-size: cover;
+}
+#b17{
+    background-image: url(/dergi/eylul-dergisi/33.png);
+    background-position: center;
+    background-size: cover;
+}
+#f18{
+    background-image: url(/dergi/eylul-dergisi/34.png);
+    background-position: center;
+    background-size: cover;
+}
+#b18{
+    background-image: url(/dergi/eylul-dergisi/35.png);
+    background-position: center;
+    background-size: cover;
+}
+#f19{
+    background-image: url(/dergi/eylul-dergisi/36.png);
+    background-position: center;
+    background-size: cover;
+}
+#b19{
+    background-image: url(/dergi/eylul-dergisi/37.png);
+    background-position: center;
+    background-size: cover;
+}
+#f20{
+    background-image: url(/dergi/eylul-dergisi/38.png);
+    background-position: center;
+    background-size: cover;
+}
+#b20{
+    background-image: url(/dergi/eylul-dergisi/39.png);
+    background-position: center;
+    background-size: cover;
+}
+#f21{
+    background-image: url(/dergi/eylul-dergisi/40.png);
+    background-position: center;
+    background-size: cover;
+}
+#b21{
+    background-image: url(/dergi/eylul-dergisi/41.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Mobile buttons */
+#next-btn-m{
+    display: none;
+}
+#prev-btn-m{
+    display: none;
+}
+
+.pdf-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.pdf-section a{
+    position: relative;
+    border-radius: .64rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700px;
+    color: black;
+}
+.pdf-section a .hero-corner{
+    height: 48px;
+    width: 95%;
+    border-radius: 0.25px;
+}
+.pdf-section a .hero-corner .benefit-line-2{
+    width: 4px;
+
+}
+.pdf-section a .hero-corner .benefit-line-1{
+    height: 4px;
+}
+@media screen and (max-width: 668px){
+    #next-btn{
+        display: none;
+    }
+    #prev-btn{
+        display: none;
+    }
+    #next-btn-m{
+        display: block;
+    }
+    #prev-btn-m{
+        display: block;
+    }
+    
+}
