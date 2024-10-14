@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dergi</title>
     <link rel="stylesheet" href="./css/dergi.css">
+    <link rel="stylesheet" href="./css/css.css"/>
     <script src="./js/dergi.js" defer></script>
     <script src="https://kit.fontawesome.com/19210094df.js" crossorigin="anonymous"></script>
 </head>
+<style>
+    #magazineSelect {
+        width: 200px;
+        padding: 5px;
+        border:3px solid #CE0F2C;
+        cursor: pointer;
+        padding: .75rem;
+        border-radius: .356rem;
+    }
+
+</style>
 <body>
     <div class="pc">
         <!-- Previous Button -->
@@ -256,6 +268,24 @@
             <i class="fa-solid fa-circle-arrow-right"></i>
     </button>
     </div>
-    
+    <div style="display: flex;width: 100%;justify-content: center; margin-top: 2rem;">
+        <div style="display: flex;position: relative;">
+            <select id="magazineSelect" onchange="openPDF()"style="z-index: 3;background-color:transparent;padding:1rem">
+                <option value="">Geçmiş Dergiler</option>
+                <option value="dergi/kotgep-eylul-ayi-dergisi.pdf">Eylül 2024 Sayı 1</option>
+                <option value="link-to-pdf2.pdf">Ekim 2024 Sayı 2</option>
+                <!-- Daha fazla dergi linki eklenebilir -->
+            </select>
+        </div>
+    </div>
 </body>
+<script>
+    function openPDF() {
+  var selectedPDF = document.getElementById('magazineSelect').value;
+  if (selectedPDF) {
+    window.open(selectedPDF, '_blank');
+  }
+}
+
+</script>
 </html>
